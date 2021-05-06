@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'GothamSSm Narrow ExtraLight';
+    src: url(../font/14150.otf);
+}
+@font-face {
+    font-family: 'GothamSSm Narrow';
+    src: url(../font/14149.otf);
+}
+.body{
+    margin: 0;
+    font-family: 'GothamSSm Narrow';
+    color: #201a1e;
+}
+.logo{
+    width: 175px;
+}
+.fix-conteiner{
+    margin: 0 auto;
+    width: 970px;
+}
+.dialog-conteiner{
+    background-color: rgba(252, 252, 252, 0.308);
+    display: none;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+}
+.dialog-ask{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin: 300px auto;
+}
+.dialog-ask__p{
+    color: white;
+}
+.-background-head{
+    padding: 20px;
+    background: #faadc1;
+}
+.-flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.header__input{
+    width: 425px;
+}
+.form-search__button{
+    position: relative;
+    right: 46px;
+    top: 6px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.-input{
+    padding: 10px;
+    border: 2px solid #faadc1;
+    border-radius: 20px;
+    resize: none;
+    outline: none;
+}
+.-margin{
+    margin: 20px 0;
+}
+.-ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.section-header__link{
+    align-self: center;
+}
+.section-header__img{
+    width: 50px;
+    height: 50px;
+}
+.ul__li{
+    margin: 20px;
+}
+.-link{
+    color: black;
+    text-decoration: none;
+}
+.-img{
+    border: 3px solid #faadc1;
+    border-radius: 20px;
+}
+.main{
+    margin: 20px 0;
+}
+.main__p{
+    padding: 145px 500px 330px 20px;
+    background: url(../img/42910-6.jpg);
+    font-size: 20pt;
+    color: #f77c9d;
+}
+.article-product__img{
+    max-width: 100%;
+    max-height: 125px;
+    align-self: center;
+}
+.section-filter{
+    margin-right: 20px;
+    align-self: flex-start;
+}
+.section-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article-product{
+    width: 220px;
+    margin-bottom: 10px;
+}
+.article-product__p-thing{
+    font-size: 12px;
+    font-family: 'GothamSSm Narrow ExtraLight';
+}
+.-red{
+    color: #f21d56;
+}
+.article-about{
+    flex-wrap: wrap;
+}
+.article-about__logo{
+    width: 450px;
+    align-self: flex-start;
+}
+.-margin-product{
+    margin-top: auto;
+}
+.-btn{
+    padding: 10px 30px;
+    color: #201a1e;
+    font-family: 'GothamSSm Narrow ExtraLight';
+    background: #faadc1;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.-btn:hover{
+    background: #f77e9e;
+}
+.-background{
+    padding: 20px;
+    border: 3px solid #faadc1;
+    border-radius: 20px;
+}
+.footer-ul__img{
+    width: 30px;
+}

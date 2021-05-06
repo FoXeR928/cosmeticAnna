@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/assortiment-style.css">
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/answer.js"></script>
+    <title>Красота</title>
+</head>
+<body class="body">
+    <div class="dialog-conteiner">
+        <dialog class="dialog-ask -background">
+            <p class="dialog-askp">Мы вам обязательно с вами свяжемся</p>
+            <button class="dialog-askbutton -btn">Ок</button>
+        </dialog>
+    </div>
+    <header class="header -background-head">
+        <div class="fix-conteiner -flex-between">
+            <a href="../../index.html"><img class="logo" src="../../img/Безымянный-1.svg"></a>
+            <nav class="header__nav -flex-column">
+                <form class="form-search">
+                    <input class="header__input -input" type="text">
+                    <button type="reset" class="form-search__button"><img src="../../img/icons8-search.svg"></button>
+                </form>
+                <ul class="nav__ul -flex-row -ul">
+                    <li class="ul__li"><a href="../../html/assortment.html" class="li__link -link">Ассортимент</a></li>
+                    <li class="ul__li"><a href="../../html/stock.html" class="li__link -link">Акции</a></li>
+                    <li class="ul__li"><a href="../../html/about.html" class="li__link -link">О нас</a></li>
+                    <li class="ul__li"><a href="../../html/contact.html" class="li__link -link">Контакты</a></li>
+                </ul>
+            </nav>
+            <section class="section-header -flex-column">
+                <a href="#form" class="section-header__link"><img class="section-header__img" src="../../img/icons8-shopping-basket-96.png"></a>
+                <a href="tel:88005553535" class="header__link -link">8(800)555-35-35</a>
+            </section>
+        </div>
+    </header>
+    <div class="fix-conteiner">
+        <main class="main">
+            <section class="section-perfume -background -margin">
+                <h2 class="section-perfume__h2">Товар</h2>
+                <article class="article-perfume -flex-row">
+                    <img src="../../img/product-base-961546-0-listingDesktop.jfif">
+                    <div class="about-conteiner">
+                        <h3 class="article-product__p-name -link">Yves Saint Laurent Y Le Parfum Eau De Parfum</h3>
+                        <p class="article-product__p-thing">Парфюмерная вода</p>
+                        <p class="article-product__p-price -margin-product -red">от 6 693 ₽</p>
+                        <button class="article-product__button -btn -margin-product">Добавить в корзину</button>
+                        <p class="article-product__p-about">Аромат Y LE PARFUM отражает характер мужчины YSL, идеальным воплощением которого является легендарный амбассадор Y, рок-легенда Ленни Кравиц. Авантюрист и мечтатель, смелый экспериментатор и разносторонняя творческая личность, он никогда не останавливается на пути к самореализации...Мужчина Y LE PARFUM проявляет себя как настоящая рок-звезда во всех своих начинаниях. Свободолюбивый. Чрезвычайно независимый. Не боящийся бросать вызов устоявшимся стереотипам. Композиция открывается нарастающим вихрем искрящихся фруктовых нот зеленого яблока. За аппетитным грейпфрутом следуют оттенки лимона, имбиря и смолы элеми.Металлическая нота альдегидов, словно пульсирующий гитарный рифф, переплетается с прохладным аккордом ладана, пронизывающим всю композицию.Цветочный, свежий и мятный оттенок египетской герани усиливает сияние искрящихся верхних нот Y LE PARFUM, плавно перетекая в более чувственные аккорды.</p>
+                    </div>
+                </article>
+            </section>
+            <form class="form -background -flex-column" id='form'>
+                <h2 class="form__h2">Заказ</h2>
+                <label class="form__label" for="">ФИО</label>
+                <input class="form__input -input -margin" name="name" type="text">
+                <label class="form__label" for="">Контакты</label>
+                <input class="form__input -input -margin" name="number" type="text">
+                <label class="form__label" for="">Описание</label>
+                <textarea class="form__textarea -input -margin" name="about" cols="30" rows="10"></textarea>
+                <button class="form__button -btn">Отправить</button>
+            </form>
+        </main>
+    </div>
+    <footer class="footer -background-head">
+        <div class="fix-conteiner -flex-between">
+            <a href="../../index.html"><img class="logo" src="../../img/Безымянный-1.svg"></a>
+            <nav class="footer__nav">
+                <ul class="nav__ul -ul">
+                    <li class="ul__li"><a href="../../html/assortment.html" class="li__link -link">Ассортимент</a></li>
+                    <li class="ul__li"><a href="../../html/stock.html" class="li__link -link">Акции</a></li>
+                    <li class="ul__li"><a href="../../html/about.html" class="li__link -link">О нас</a></li>
+                    <li class="ul__li"><a href="../../html/contact.html" class="li__link -link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="footer__ul -ul">
+                <li class="footer-ul__li -li"><a class="footer-ul__link -link" href="https://vk.com/"><img class="footer-ul__img" src="../../img/icons8-vk-circled.svg" alt="вк"></a></li>
+                <li class="footer-ul__li -li"><a class="footer-ul__link -link" href="https://web.whatsapp.com"><img class="footer-ul__img" src="../../img/icons8-whatsapp.svg" alt="whatsapp"></a></li>
+                <li class="footer-ul__li -li"><a class="footer-ul__link -link" href="https://web.telegram.org"><img class="footer-ul__img" src="../../img/icons8-telegram-app.svg" alt="телеграмм"></a></li>
+                <li class="footer-ul__li -li"><a class="footer-ul__link -link" href="https://www.instagram.com"><img class="footer-ul__img" src="../../img/icons8-instagram.svg" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

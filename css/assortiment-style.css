@@ -1,0 +1,9 @@
+.about-conteiner{
+    margin: auto 0px auto 50px;
+}
+.article-perfume{
+    align-items: baseline;
+}
+.article-perfume__img{
+    max-height: 450px;
+}
